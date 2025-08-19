@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MHL Capital Alliance | Exclusive Cross-border Ecosystem</title>
     <meta name="robots" content="noindex, nofollow">
-    <meta name="robots" content="noindex, nofollow">
+    
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -80,13 +80,13 @@
             Your browser does not support the video tag.
         </video>
         <!-- Overlay Content -->
-        <div class="container mx-auto px-6 text-center bg-transparent py-12 rounded-lg relative z-10 max-w-6xl mx-auto">
+        <div class="container mx-auto px-6 text-center bg-white/00 py-12 rounded-lg relative z-10 max-w-6xl mx-auto">
             <h1 class="text-4xl md:text-6xl font-bold leading-tight mb-4">MHL Capital Alliance</h1>
             <p class="text-xl md:text-2xl font-light">An Exclusive Cross-border Ecosystem of Family Offices & Investors</p>
             <p class="mt-4 max-w-3xl mx-auto text-slate-300">Powered by key members of local and global influential family office and strategic investors across Europe and Asia.</p>
         </div>
         <!-- Optional: Overlay for darkening the video -->
-        <div style="position: absolute; inset: 0; background: rgba(24, 46, 111, 0.7); z-index: 1;"></div>
+        <div style="position: absolute; inset: 0; background: rgba(24, 46, 111, 0.3); z-index: 1;"></div>
     </section>
     <main>
         <!-- Who We Are Section -->
@@ -319,7 +319,8 @@
                 <p class="font-semibold mb-2">Disclaimer:</p>
                 <p>This document is for informational purposes only and does not constitute an offer to sell or a solicitation of an offer to buy any securities or investment products. The information contained herein is confidential and proprietary to MHL Capital Alliance.</p>
             </div>
-            <p class="text-sm">&copy; 2024 MHL Capital Alliance. All Rights Reserved.</p>
+            <p class="text-sm">&copy; 2024 MHL Capital Alliance. All Rights Reserved. <a href="imprint.html" class="text-slate-400 hover:text-white transition-colors">Imprint / Legal Notice</a>
+</p>
         </div>
     </footer>
     <script>
@@ -338,27 +339,5 @@
             });
         });
     </script>
-
-<!-- Cookie Banner -->
-<div id="cookie-banner" style="display:none; position:fixed; bottom:0; left:0; right:0; background:#222; color:#fff; padding:15px; text-align:center; z-index:1000;">
-  This website uses functional cookies. 
-  <button id="accept-cookies" style="margin-left:15px; padding:5px 10px; background:#4CAF50; color:#fff; border:none; border-radius:5px; cursor:pointer;">
-    Accept
-  </button>
-</div>
-
-<script>
-  document.addEventListener("DOMContentLoaded", function() {
-    if (!localStorage.getItem("cookiesAccepted")) {
-      document.getElementById("cookie-banner").style.display = "block";
-    }
-
-    document.getElementById("accept-cookies").addEventListener("click", function() {
-      localStorage.setItem("cookiesAccepted", "true");
-      document.getElementById("cookie-banner").style.display = "none";
-    });
-  });
-</script>
-    
 </body>
 </html>
